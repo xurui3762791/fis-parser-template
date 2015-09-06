@@ -1,0 +1,35 @@
+{
+    "name" : "fis-parser-template",
+    "description" : "template.js的fis编译插件——一款javascript模板引擎",
+    "version" : "0.1.1",
+    "author": {
+        "name": "xurui",
+        "email": "3762791@qq.com",
+        "url": "http://jsio.cn"
+    },
+    "homepage" : "https://github.com/xurui3762791/fis-parser-template",
+    "keywords": ["fis", "fis-parser", "template", "template.js"],
+    "main" : "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xurui3762791/fis-parser-template.git"
+    },
+    "bugs": {
+        "url": "https://github.com/xurui3762791/fis-parser-template/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/xurui3762791/fis-parser-template/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "engines" : {
+        "node" : ">= 0.8.0"
+    },
+    "scripts" : {
+        "test" : "mocha test/ut --recursive"
+    },
+    "dependencies" : {
+        "template_js" : "0.2.0"
+    }
+}
